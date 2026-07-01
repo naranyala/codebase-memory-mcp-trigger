@@ -1,0 +1,14 @@
+{
+  "name": "codebase-memory-mcp-trigger",
+  "version": "1.0.0",
+  "description": "A Pi extension to trigger codebase-memory-mcp",
+  "main": "extensions/index.ts",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "latest"
+  }
+}
